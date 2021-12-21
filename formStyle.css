@@ -1,0 +1,109 @@
+/* Caractéristiques générales */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  min-height: 100vh;
+  background-image: url("assets/images/backForm.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+/* Navbar */
+
+nav {
+  background-color: rgb(82, 82, 82);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+nav h1 {
+  margin: 1rem;
+  font-size: 4rem;
+  text-shadow: 2px 1px 1px rgb(50, 50, 50);
+  color: rgb(245, 245, 245);
+  text-decoration: underline overline solid #e4087e;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: #e4087e;
+  text-decoration: underline solid #e4087e;
+}
+
+/* Corps de la page */
+
+main {
+  width: 70%;
+  margin: 4rem auto 2rem auto;
+  border: solid 0.2rem grey;
+  border-radius: 20px;
+  background-color: rgba(60, 60, 60, 0.5);
+  padding: 2rem;
+  text-align: left;
+  box-shadow: 2px 1px 1px black;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+}
+
+button {
+  width: 100%;
+  margin: auto;
+}
+
+button:hover {
+  box-shadow: 3px 1.5px 1.5px rgb(50, 50, 50);
+}
+
+main a {
+  margin: 2rem 0;
+}
+
+main a:hover {
+  box-shadow: 3px 1.5px 1.5px rgb(100, 100, 100);
+}
+
+/* Footer */
+
+footer {
+  background-color: rgb(82, 82, 82);
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+footer p {
+  width: 33%;
+}

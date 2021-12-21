@@ -1,0 +1,83 @@
+/* Caractéristiques générales */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Navbar */
+
+nav {
+  background-color: rgb(82, 82, 82);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+nav h1 {
+  margin: 1rem;
+  font-size: 4rem;
+  text-shadow: 2px 1px 1px rgb(50, 50, 50);
+  color: rgb(245, 245, 245);
+  text-decoration: underline overline solid #e4087e;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: #e4087e;
+  text-decoration: underline solid #e4087e;
+}
+
+/* Corps de la page */
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  min-height: 100vh;
+}
+
+/* Carte Bootstrap */
+
+.card {
+  height: 75%;
+}
+
+/* Footer */
+
+footer {
+  background-color: rgb(82, 82, 82);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+footer p {
+  width: 33%;
+}
